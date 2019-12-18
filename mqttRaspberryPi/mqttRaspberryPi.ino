@@ -103,9 +103,11 @@ void loop() {
   if (buttonState == HIGH) {
     // turn LED on:
     client.publish("SubCntrLED1", "1");
+    digitalWrite(D0,HIGH);
   } else {
     // turn LED off:
     client.publish("SubCntrLED1", "0");
+    digitalWrite(D0,LOW);
   }
   
 }
