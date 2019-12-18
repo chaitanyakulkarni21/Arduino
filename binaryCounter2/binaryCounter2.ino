@@ -1,8 +1,5 @@
 // Design a 3 bit counter using led to count from 0 to 7
 
-
-
-
 void setup() {
   // put your setup code here, to run once:
   pinMode(2,OUTPUT);
