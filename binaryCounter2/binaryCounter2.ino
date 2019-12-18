@@ -25,7 +25,7 @@ void loop() {
     else{
       digitalWrite(3,HIGH);
     }
-
+    
     // for pin 2
     if(i == 0 || i == 2 || i == 4 || i == 6){
       digitalWrite(2,LOW);
