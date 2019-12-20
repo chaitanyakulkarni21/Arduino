@@ -1,10 +1,10 @@
-//#define BLYNK_PRINT Serial
+#define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
 char auth[] = "H7tZZ-OdBCBqPFI3JiG1DuZNBJ8ULO6-"; // the auth code that you got on your gmail
-char ssid[] = "Zayn Malik"; // username or ssid of your WI-FI
-char pass[] = "Saurav07@_ZaynMalik1D"; // password of your Wi-Fi
+char ssid[] = "Samsung Galaxy Note 9"; // username or ssid of your WI-FI
+char pass[] = "qdaz1607"; // password of your Wi-Fi
 
 // In Blynk App
 // Connect IN1 to D3
